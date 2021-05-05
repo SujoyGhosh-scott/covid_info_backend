@@ -4,11 +4,13 @@
   "description": "this app is made for helping covid affected people. and keeping people updated with covid informations.",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "sujoy ghosh",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.7"
